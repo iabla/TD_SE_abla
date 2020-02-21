@@ -33,8 +33,12 @@ On peut facilement repérer les fonctions du programme (main, is_valid ) et les 
 ![capture 1](https://github.com/iabla/TD_SE_abla/blob/master/docs/screens/Capture%20du%202020-02-21%2016-54-26.png)
 
 4. On modifie le binaire (on modifie l'adresse qui va être appelée lorsque le mot de passe sera différent de "poop")
+![capture 2](https://github.com/iabla/TD_SE_abla/blob/master/docs/screens/Capture%20du%202020-02-21%2016-54-12.png)
 
-5. 
+5. On teste : That's correct s'affiche quelque soilt le mot de passe entré : 
+![capture 3](https://github.com/iabla/TD_SE_abla/blob/master/docs/screens/Capture%20du%202020-02-21%2016-53-45.png)
+
+
 
 
 
