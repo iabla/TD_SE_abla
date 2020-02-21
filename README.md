@@ -1,17 +1,27 @@
 # INSA 2SU 2020 - ABLA 
 
 ## Questions : 
-Q1. 
-Q2.
-Q3. 
-produit ou service (le besoin qu'on rempli)
-qu'est ce que l'attaquant peut gagner en faisant ça (
-par où on rentre dans le système ? 
+Q1. Les chemins d'attaque possibles sur la signature d'un système embarqué : le port USB, ethernet port, mémoire flash, JTAG port, bouton reset ... 
 
-Q4. debug embarqué = emulation , qemu, ... les avantages pour debugger rapidement (moins de qlq min)
-les catégories de bug : overflow... voir cours (comment attaquer comment défendre ...)
+Q2. 
 
-Q6.comment améliorer la sécurité de l'embarqué 
+Q3. La méthode pour aborder la sécurité sur un produit embarqué : 
+- Il faut identifier le service le produit (quel besoin nous remplissons ?)
+- Connaître les motivations de l'attaquant (qu'est ce qu'il va gagner ? ) 
+- Identifier la surface, les chemins d'attaques  et les points d'entrée possibles pour accéder au système.
+
+Etablir un mode d'attaquant est important pour comprendre comment l'attaquant va agir, connaître les étapes qu'il compte suivre et évaluer ses capacités.
+
+
+Q4. Moyens pour faire le debugs embarqué  : emulation , qemu, ... les avantages sont : ils permettent de réaliser un déboggage rapide en quelques minutes.
+
+Q5. Les catégories de bug possibles: 
+Overflow
+Double free
+
+Q6.Améliorer la sécurité de l'embarqué : L'obfuscation 
+
+C’est un ensemble de techniques destinées à rendre un code source moins lisible. Elle consiste à multiplier ces confusions entre données et instructions et à noyer le code parmi du faux code qui ne sert à rien ou des données aléatoires.
 
 
 
