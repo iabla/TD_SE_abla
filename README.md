@@ -30,7 +30,7 @@ That's not correct!
 
 3. En utilisant l'utilitaire objdump, nous allons décomposer le programme en plusieurs opérations, chaque opération occupe une ligne dans le fichier objdump : *objdump -S -l -C -F -t -w a.out | less*
 On peut facilement repérer les fonctions du programme (main, is_valid ) et les instructions de chacune de ces fonctions : 
-![Capture hexa](https://github.com/iabla/TD_SE_abla/raw/master/docs/screens/Capture%20du%202020-01-28%2016-04-34.png)
+![Capture hexa](https://github.com/iabla/TD_SE_abla/raw/master/docs/screens/Capture%du%2020-02-21%16-54-26.png)
 
 
 4. On modifie le binaire (on modifie l'adresse qui va être appelée lorsque le mot de passe sera différent de "poop")
